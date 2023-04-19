@@ -2,6 +2,7 @@ import "./styles.css"
 import Img1 from "./img/p1.jpg"
 import Img2 from "./img/p2.jpg"
 import Img3 from "./img/p3.jpg"
+import Img4 from "./img/p4.jpg"
 function Portfolio(){
     function handleClickImg1(){
         window.open(Img1);
@@ -11,6 +12,21 @@ function Portfolio(){
     }
     function handleClickImg3(){
         window.open(Img3)
+    }
+    function handleClickImg4(){
+        window.open(Img4)
+    }
+    function handleCode1(){
+        window.open("https://github.com/leaDevJs/Attack-on-Titan")
+    }
+    function handleCode2(){
+        window.open("https://github.com/leaDevJs/JuegoBarbarianna")
+    }
+    function handleCode3(){
+        window.open("https://github.com/leaDevJs/PortfolioFrontendAngular")
+    }
+    function handleCode4(){
+        window.open("https://github.com/LeaDevJs/rutas-dinamicas-ejercicio")
     }
  
     return(
@@ -28,11 +44,9 @@ function Portfolio(){
                             <p>Videojuego desarrollado con Java</p>
                         </div>
                     </div>
-                    <a href="https://github.com/leaDevJs/Attack-on-Titan" >
-                    <button>Código<i className="fa-brands fa-github"></i>
+                    <button onClick={handleCode1}>Código<i className="fa-brands fa-github"></i>
                         <span className="overlay"></span>
                     </button>
-                    </a>
                 </div>
                 <div>
                     <div className="proyecto">
@@ -42,11 +56,9 @@ function Portfolio(){
                             <p>Videojuego desarrollado con Java</p>
                         </div>
                     </div>
-                    <a href="https://github.com/leaDevJs/JuegoBarbarianna">
-                        <button>Código<i className="fa-brands fa-github"></i>
+                        <button onClick={handleCode2}>Código<i className="fa-brands fa-github"></i>
                             <span className="overlay"></span>
                         </button>
-                    </a>
                 </div>
                 
                 <div>
@@ -57,11 +69,22 @@ function Portfolio(){
                             <p>Portfolio frontend desarrollado con Angular</p>
                         </div>
                     </div>
-                    <a href="https://github.com/leaDevJs/PortfolioFrontendAngular">
-                        <button>Código<i className="fa-brands fa-github"></i>
+                        <button onClick={handleCode3}>
+                            Código <i className="fa-brands fa-github"></i>
                             <span className="overlay"></span>
                         </button>
-                    </a>
+                </div>
+                <div>
+                    <div className="proyecto">
+                            <img src={Img4} alt=""/>
+                        <div className="overlay" onClick={handleClickImg4}>
+                            <h3>Rutas Dinámicas</h3>
+                            <p>Ejercicio rutas dinámicas React</p>
+                        </div>
+                    </div>
+                        <button onClick={handleCode4}>Código<i className="fa-brands fa-github"></i>
+                            <span className="overlay"></span>
+                        </button>
                 </div>
                   
             </div>
