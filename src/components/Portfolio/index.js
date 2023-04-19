@@ -12,6 +12,7 @@ function Portfolio(){
     function handleClickImg3(){
         window.open(Img3)
     }
+ 
     return(
         <>
         <section id="portfolio" className="portfolio">
@@ -21,46 +22,46 @@ function Portfolio(){
             <div className="galeria">
                 <div>
                     <div className="proyecto">
-                        <a href="https://github.com/leansoda99/Attack-on-Titan">
                             <img src={Img1} alt=""/>
-                        </a>
-                        <div className="overlay">
+                        <div className="overlay" onClick={handleClickImg1}>
                             <h3>Attack on Titan</h3>
                             <p>Videojuego desarrollado con Java</p>
                         </div>
                     </div>
-                    <button onClick={handleClickImg1}>Vista previa
+                    <a href="https://github.com/leaDevJs/Attack-on-Titan" >
+                    <button>Código<i className="fa-brands fa-github"></i>
                         <span className="overlay"></span>
                     </button>
+                    </a>
                 </div>
                 <div>
                     <div className="proyecto">
-                        <a href="https://github.com/leansoda99/JuegoBarbarianna">   
                             <img src={Img2} alt=""/>
-                        </a>
-                        <div className="overlay">
+                        <div className="overlay" onClick={handleClickImg2}>
                             <h3>Barbarianna</h3>
                             <p>Videojuego desarrollado con Java</p>
                         </div>
                     </div>
-                    <button onClick={handleClickImg2}>Vista previa
-                        <span className="overlay"></span>
-                    </button>
+                    <a href="https://github.com/leaDevJs/JuegoBarbarianna">
+                        <button>Código<i className="fa-brands fa-github"></i>
+                            <span className="overlay"></span>
+                        </button>
+                    </a>
                 </div>
                 
                 <div>
                     <div className="proyecto">
-                        <a href="https://github.com/leansoda99/PortfolioFrontendAngular">
                             <img src={Img3} alt=""/>
-                        </a>
-                        <div className="overlay">
+                        <div className="overlay" onClick={handleClickImg3}>
                             <h3>Portfolio Frontend</h3>
                             <p>Portfolio frontend desarrollado con Angular</p>
                         </div>
                     </div>
-                    <button onClick={handleClickImg3}>Vista previa
-                        <span className="overlay"></span>
-                    </button>
+                    <a href="https://github.com/leaDevJs/PortfolioFrontendAngular">
+                        <button>Código<i className="fa-brands fa-github"></i>
+                            <span className="overlay"></span>
+                        </button>
+                    </a>
                 </div>
                   
             </div>
@@ -71,3 +72,4 @@ function Portfolio(){
     );
 }
 export default Portfolio;
+
