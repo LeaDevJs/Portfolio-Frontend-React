@@ -3,6 +3,8 @@ import Img1 from "./img/p1.jpg"
 import Img2 from "./img/p2.jpg"
 import Img3 from "./img/p3.jpg"
 import Img4 from "./img/p4.jpg"
+import Img5 from "./img/p5.jpg"
+import Img6 from "./img/p6.jpg"
 function Portfolio(){
     function handleClickImg1(){
         window.open(Img1);
@@ -16,6 +18,12 @@ function Portfolio(){
     function handleClickImg4(){
         window.open(Img4)
     }
+    function handleClickImg5(){
+        window.open("https://leadevjs.github.io/QRCodeComponent/")
+    }
+    function handleClickImg6(){
+        window.open("https://leadevjs.github.io/results-summary-component/")
+    }
     function handleCode1(){
         window.open("https://github.com/leaDevJs/Attack-on-Titan")
     }
@@ -27,6 +35,12 @@ function Portfolio(){
     }
     function handleCode4(){
         window.open("https://github.com/LeaDevJs/rutas-dinamicas-ejercicio")
+    }
+    function handleCode5(){
+        window.open("https://github.com/LeaDevJs/QRcodecomponent")
+    }
+    function handleCode6(){
+        window.open("https://github.com/LeaDevJs/results-summary-component")
     }
  
     return(
@@ -83,6 +97,30 @@ function Portfolio(){
                         </div>
                     </div>
                         <button onClick={handleCode4}>Código<i className="fa-brands fa-github"></i>
+                            <span className="overlay"></span>
+                        </button>
+                </div>
+                <div>
+                    <div className="proyecto">
+                            <img src={Img5} alt=""/>
+                        <div className="overlay" onClick={handleClickImg5}>
+                            <h3>QR Component</h3>
+                            <p>QR Component para FrontendMentor</p>
+                        </div>
+                    </div>
+                        <button onClick={handleCode5}>Código<i className="fa-brands fa-github"></i>
+                            <span className="overlay"></span>
+                        </button>
+                </div>
+                <div>
+                    <div className="proyecto">
+                            <img src={Img6} alt=""/>
+                        <div className="overlay" onClick={handleClickImg6}>
+                            <h3>Results Summary Component</h3>
+                            <p>Results Summary Component para FrontendMentor</p>
+                        </div>
+                    </div>
+                        <button onClick={handleCode6}>Código<i className="fa-brands fa-github"></i>
                             <span className="overlay"></span>
                         </button>
                 </div>
