@@ -1,22 +1,24 @@
 {
   "files": {
     "main.css": "/Portfolio-Frontend-React/static/css/main.0bd674a5.css",
-    "main.js": "/Portfolio-Frontend-React/static/js/main.5628ba8c.js",
+    "main.js": "/Portfolio-Frontend-React/static/js/main.ccb9ff5b.js",
     "static/js/787.f3d7924f.chunk.js": "/Portfolio-Frontend-React/static/js/787.f3d7924f.chunk.js",
     "static/media/fondo.jpg": "/Portfolio-Frontend-React/static/media/fondo.f684668eaefd50fb71f3.jpg",
     "static/media/p2.jpg": "/Portfolio-Frontend-React/static/media/p2.0fcd23063349891715bb.jpg",
     "static/media/p4.jpg": "/Portfolio-Frontend-React/static/media/p4.28c5bbad38da2c7450e2.jpg",
     "static/media/p1.jpg": "/Portfolio-Frontend-React/static/media/p1.608e1fd6a0f10d509e72.jpg",
     "static/media/p3.jpg": "/Portfolio-Frontend-React/static/media/p3.11ee8c2bd200dff809af.jpg",
+    "static/media/p5.jpg": "/Portfolio-Frontend-React/static/media/p5.cdeebb594a44caa77886.jpg",
+    "static/media/p6.jpg": "/Portfolio-Frontend-React/static/media/p6.58e4d3debe6f3a388731.jpg",
     "static/media/LeandroZapataCv2023.pdf": "/Portfolio-Frontend-React/static/media/LeandroZapataCv2023.3358028fe10959107edd.pdf",
     "static/media/profilePic.png": "/Portfolio-Frontend-React/static/media/profilePic.afa6db8776981cc9f5cc.png",
     "index.html": "/Portfolio-Frontend-React/index.html",
     "main.0bd674a5.css.map": "/Portfolio-Frontend-React/static/css/main.0bd674a5.css.map",
-    "main.5628ba8c.js.map": "/Portfolio-Frontend-React/static/js/main.5628ba8c.js.map",
+    "main.ccb9ff5b.js.map": "/Portfolio-Frontend-React/static/js/main.ccb9ff5b.js.map",
     "787.f3d7924f.chunk.js.map": "/Portfolio-Frontend-React/static/js/787.f3d7924f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0bd674a5.css",
-    "static/js/main.5628ba8c.js"
+    "static/js/main.ccb9ff5b.js"
   ]
 }
