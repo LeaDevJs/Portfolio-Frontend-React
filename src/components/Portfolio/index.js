@@ -5,6 +5,13 @@ import Img3 from "./img/p3.jpg"
 import Img4 from "./img/p4.jpg"
 import Img5 from "./img/p5.jpg"
 import Img6 from "./img/p6.jpg"
+import Img7 from "./img/p7.jpg"
+import Img8 from "./img/p8.jpg"
+import Img9 from "./img/p9.jpg"
+import Img10 from "./img/p10.jpg"
+const verMasDisplay=document.querySelector(".ver-mas-display");
+const verMenosButton=document.querySelector(".ver-menos");
+const verMasButton=document.querySelector(".ver-mas");
 function Portfolio(){
     function handleClickImg1(){
         window.open(Img1);
@@ -24,6 +31,18 @@ function Portfolio(){
     function handleClickImg6(){
         window.open("https://leadevjs.github.io/results-summary-component/")
     }
+    function handleClickImg7(){
+        window.open("https://leadevjs.github.io/product-preview-card-component/")
+    }
+    function handleClickImg8(){
+        window.open("https://leadevjs.github.io/interactive-rating-component/")
+    }
+    function handleClickImg9(){
+        window.open("https://leadevjs.github.io/age-calculator-app/")
+    }
+    function handleClickImg10(){
+        window.open("https://leadevjs.github.io/ToDoList/")
+    }
     function handleCode1(){
         window.open("https://github.com/leaDevJs/Attack-on-Titan")
     }
@@ -42,7 +61,28 @@ function Portfolio(){
     function handleCode6(){
         window.open("https://github.com/LeaDevJs/results-summary-component")
     }
- 
+    function handleCode7(){
+        window.open("https://github.com/LeaDevJs/product-preview-card-component")
+    }
+    function handleCode8(){
+        window.open("https://github.com/LeaDevJs/interactive-rating-component")
+    }
+    function handleCode9(){
+        window.open("https://github.com/LeaDevJs/age-calculator-app")
+    }
+    function handleCode10(){
+        window.open("https://github.com/LeaDevJs/ToDoList")
+    }
+    function handleVerMas(){
+        verMasDisplay.style.display="flex";
+        verMasButton.style.display="none";
+        verMenosButton.style.display="flex";
+    }
+    function handleVerMenos(){
+        verMasDisplay.style.display="none";
+        verMasButton.style.display="flex";
+        verMenosButton.style.display="none";
+    }
     return(
         <>
         <section id="portfolio" className="portfolio">
@@ -50,15 +90,27 @@ function Portfolio(){
         <div className="contenido-seccion">
             <h2>PORTFOLIO</h2>
             <div className="galeria">
-                <div>
+            <div>
                     <div className="proyecto">
-                            <img src={Img1} alt=""/>
-                        <div className="overlay" onClick={handleClickImg1}>
-                            <h3>Attack on Titan</h3>
-                            <p>Videojuego desarrollado con Java</p>
+                            <img src={Img10} alt=""/>
+                        <div className="overlay" onClick={handleClickImg10}>
+                            <h3>ToDoList</h3>
+                            <p>Aplicacion lista de tareas</p>
                         </div>
                     </div>
-                    <button onClick={handleCode1}>Código<i className="fa-brands fa-github"></i>
+                    <button onClick={handleCode10}>Código<i className="fa-brands fa-github"></i>
+                        <span className="overlay"></span>
+                    </button>
+                </div>
+            <div>
+                    <div className="proyecto">
+                            <img src={Img9} alt=""/>
+                        <div className="overlay" onClick={handleClickImg9}>
+                            <h3>Age calculator app</h3>
+                            <p>Aplicacion calculadora de edad</p>
+                        </div>
+                    </div>
+                    <button onClick={handleCode9}>Código<i className="fa-brands fa-github"></i>
                         <span className="overlay"></span>
                     </button>
                 </div>
@@ -100,18 +152,7 @@ function Portfolio(){
                             <span className="overlay"></span>
                         </button>
                 </div>
-                <div>
-                    <div className="proyecto">
-                            <img src={Img5} alt=""/>
-                        <div className="overlay" onClick={handleClickImg5}>
-                            <h3>QR Component</h3>
-                            <p>QR Component para FrontendMentor</p>
-                        </div>
-                    </div>
-                        <button onClick={handleCode5}>Código<i className="fa-brands fa-github"></i>
-                            <span className="overlay"></span>
-                        </button>
-                </div>
+                
                 <div>
                     <div className="proyecto">
                             <img src={Img6} alt=""/>
@@ -127,6 +168,70 @@ function Portfolio(){
                   
             </div>
         </div>
+        <div className="ver-mas">
+            <button onClick={handleVerMas} >Ver mas
+            <span className="overlay"></span>
+            </button>
+        </div>
+        <div className="ver-menos">
+            <button onClick={handleVerMenos} >Ver menos
+            <span className="overlay"></span>
+            </button>
+        </div>
+        <div className="contenido-seccion ver-mas-display">
+        <div className="galeria">
+        <div>
+                    <div className="proyecto">
+                            <img src={Img1} alt=""/>
+                        <div className="overlay" onClick={handleClickImg1}>
+                            <h3>Attack on Titan</h3>
+                            <p>Videojuego desarrollado con Java</p>
+                        </div>
+                    </div>
+                    <button onClick={handleCode1}>Código<i className="fa-brands fa-github"></i>
+                        <span className="overlay"></span>
+                    </button>
+                </div>
+        <div>
+                    <div className="proyecto">
+                            <img src={Img5} alt=""/>
+                        <div className="overlay" onClick={handleClickImg5}>
+                            <h3>QR Component</h3>
+                            <p>QR Component para FrontendMentor</p>
+                        </div>
+                    </div>
+                        <button onClick={handleCode5}>Código<i className="fa-brands fa-github"></i>
+                            <span className="overlay"></span>
+                        </button>
+                </div>
+                
+                <div>
+                    <div className="proyecto">
+                            <img src={Img7} alt=""/>
+                        <div className="overlay" onClick={handleClickImg7}>
+                            <h3>Product preview card</h3>
+                            <p>Product preview card para Frontend Mentor</p>
+                        </div>
+                    </div>
+                    <button onClick={handleCode7}>Código<i className="fa-brands fa-github"></i>
+                        <span className="overlay"></span>
+                    </button>
+                </div>
+                <div>
+                    <div className="proyecto">
+                            <img src={Img8} alt=""/>
+                        <div className="overlay" onClick={handleClickImg8}>
+                            <h3>Interactive rating component</h3>
+                            <p>Interactive rating component para Frontend Mentor</p>
+                        </div>
+                    </div>
+                    <button onClick={handleCode8}>Código<i className="fa-brands fa-github"></i>
+                        <span className="overlay"></span>
+                    </button>
+                </div>
+                </div>
+                </div>
+                
     </section>
     
         </>

@@ -1,5 +1,5 @@
 import "./styles.css"
-import CV from "./pdf/LeandroZapataCv2023.pdf"
+import CV from "./pdf/cvLeanZJ2023.pdf";
 function SobreMi() {
     return(
         <>
