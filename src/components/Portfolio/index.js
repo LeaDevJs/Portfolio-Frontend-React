@@ -1,3 +1,4 @@
+import React, { useRef } from 'react';
 import "./styles.css"
 import Img1 from "./img/p1.jpg"
 import Img2 from "./img/p2.jpg"
@@ -9,10 +10,11 @@ import Img7 from "./img/p7.jpg"
 import Img8 from "./img/p8.jpg"
 import Img9 from "./img/p9.jpg"
 import Img10 from "./img/p10.jpg"
-const verMasDisplay=document.querySelector(".ver-mas-display");
-const verMenosButton=document.querySelector(".ver-menos");
-const verMasButton=document.querySelector(".ver-mas");
+
 function Portfolio(){
+    const verMasDisplayRef = useRef(null);
+    const verMenosButtonRef = useRef(null);
+    const verMasButtonRef = useRef(null);
     function handleClickImg1(){
         window.open(Img1);
     }
@@ -73,16 +75,16 @@ function Portfolio(){
     function handleCode10(){
         window.open("https://github.com/LeaDevJs/ToDoList")
     }
-    function handleVerMas(){
-        verMasDisplay.style.display="flex";
-        verMasButton.style.display="none";
-        verMenosButton.style.display="flex";
-    }
-    function handleVerMenos(){
-        verMasDisplay.style.display="none";
-        verMasButton.style.display="flex";
-        verMenosButton.style.display="none";
-    }
+    function handleVerMas() {
+        verMasDisplayRef.current.style.display = "flex";
+        verMasButtonRef.current.style.display = "none";
+        verMenosButtonRef.current.style.display = "flex";
+      }
+      function handleVerMenos() {
+        verMasDisplayRef.current.style.display = "none";
+        verMasButtonRef.current.style.display = "flex";
+        verMenosButtonRef.current.style.display = "none";
+      }
     return(
         <>
         <section id="portfolio" className="portfolio">
@@ -168,17 +170,17 @@ function Portfolio(){
                   
             </div>
         </div>
-        <div className="ver-mas">
-            <button onClick={handleVerMas} >Ver mas
-            <span className="overlay"></span>
-            </button>
+        <div className="ver-mas" ref={verMasButtonRef}>
+          <button onClick={handleVerMas}>Ver mas
+          <span className="overlay"></span>
+          </button>
         </div>
-        <div className="ver-menos">
-            <button onClick={handleVerMenos} >Ver menos
-            <span className="overlay"></span>
-            </button>
+        <div className="ver-menos" ref={verMenosButtonRef}>
+          <button onClick={handleVerMenos}>Ver menos
+          <span className="overlay"></span>
+          </button>
         </div>
-        <div className="contenido-seccion ver-mas-display">
+        <div className="contenido-seccion ver-mas-display" ref={verMasDisplayRef}>
         <div className="galeria">
         <div>
                     <div className="proyecto">
