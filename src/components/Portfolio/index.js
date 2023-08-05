@@ -175,11 +175,7 @@ function Portfolio(){
           <span className="overlay"></span>
           </button>
         </div>
-        <div className="ver-menos" ref={verMenosButtonRef}>
-          <button onClick={handleVerMenos}>Ver menos
-          <span className="overlay"></span>
-          </button>
-        </div>
+        
         <div className="contenido-seccion ver-mas-display" ref={verMasDisplayRef}>
         <div className="galeria">
         <div>
@@ -232,6 +228,11 @@ function Portfolio(){
                     </button>
                 </div>
                 </div>
+                </div>
+                <div className="ver-menos" ref={verMenosButtonRef}>
+                    <button onClick={handleVerMenos}>Ver menos
+                    <span className="overlay"></span>
+                    </button>
                 </div>
                 
     </section>
