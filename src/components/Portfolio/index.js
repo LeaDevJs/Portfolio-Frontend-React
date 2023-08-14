@@ -10,6 +10,7 @@ import Img7 from "./img/p7.jpg"
 import Img8 from "./img/p8.jpg"
 import Img9 from "./img/p9.jpg"
 import Img10 from "./img/p10.jpg"
+import Img11 from "./img/p11.jpg" 
 
 function Portfolio(){
     const verMasDisplayRef = useRef(null);
@@ -45,6 +46,9 @@ function Portfolio(){
     function handleClickImg10(){
         window.open("https://leadevjs.github.io/ToDoList/")
     }
+    function handleClickImg11(){
+        window.open(Img11)
+    }
     function handleCode1(){
         window.open("https://github.com/leaDevJs/Attack-on-Titan")
     }
@@ -74,6 +78,9 @@ function Portfolio(){
     }
     function handleCode10(){
         window.open("https://github.com/LeaDevJs/ToDoList")
+    }
+    function handleCode11(){
+        window.open("https://github.com/LeaDevJs/ToDoListLaravel")
     }
     function handleVerMas() {
         verMasDisplayRef.current.style.display = "flex";
@@ -115,6 +122,18 @@ function Portfolio(){
                     <button onClick={handleCode9}>Código<i className="fa-brands fa-github"></i>
                         <span className="overlay"></span>
                     </button>
+                </div>
+                <div>
+                    <div className="proyecto">
+                            <img src={Img11} alt=""/>
+                        <div className="overlay" onClick={handleClickImg11}>
+                            <h3>To Do List Laravel</h3>
+                            <p>To do list realizando un CRUD con Laravel</p>
+                        </div>
+                    </div>
+                        <button onClick={handleCode11}>Código<i className="fa-brands fa-github"></i>
+                            <span className="overlay"></span>
+                        </button>
                 </div>
                 <div>
                     <div className="proyecto">
@@ -241,4 +260,3 @@ function Portfolio(){
     );
 }
 export default Portfolio;
-

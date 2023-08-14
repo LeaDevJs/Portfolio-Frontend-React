@@ -57,7 +57,7 @@ window.onscroll = function() {
                         </div>
                     </div>
                     <div className="skill">
-                        <span>Node</span>
+                        <span>Laravel</span>
                         <div className="barra-skill">
                             <div className="progreso">
                                 <span>65%</span>
