@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Frontend-React/static/css/main.e0daf626.css",
-    "main.js": "/Portfolio-Frontend-React/static/js/main.bf0a8c97.js",
+    "main.js": "/Portfolio-Frontend-React/static/js/main.22697d6f.js",
     "static/js/787.f3d7924f.chunk.js": "/Portfolio-Frontend-React/static/js/787.f3d7924f.chunk.js",
     "static/media/fondo.jpg": "/Portfolio-Frontend-React/static/media/fondo.f684668eaefd50fb71f3.jpg",
     "static/media/p7.jpg": "/Portfolio-Frontend-React/static/media/p7.f57ed6b034467791df70.jpg",
@@ -15,14 +15,15 @@
     "static/media/cvLeanZJ2023.pdf": "/Portfolio-Frontend-React/static/media/cvLeanZJ2023.f79b2e9f3e3b8707ed72.pdf",
     "static/media/p6.jpg": "/Portfolio-Frontend-React/static/media/p6.58e4d3debe6f3a388731.jpg",
     "static/media/p8.jpg": "/Portfolio-Frontend-React/static/media/p8.2237ad17cf943fa58969.jpg",
+    "static/media/p11.jpg": "/Portfolio-Frontend-React/static/media/p11.9d668f4a5ef3ceaabec7.jpg",
     "static/media/profilePic.png": "/Portfolio-Frontend-React/static/media/profilePic.afa6db8776981cc9f5cc.png",
     "index.html": "/Portfolio-Frontend-React/index.html",
     "main.e0daf626.css.map": "/Portfolio-Frontend-React/static/css/main.e0daf626.css.map",
-    "main.bf0a8c97.js.map": "/Portfolio-Frontend-React/static/js/main.bf0a8c97.js.map",
+    "main.22697d6f.js.map": "/Portfolio-Frontend-React/static/js/main.22697d6f.js.map",
     "787.f3d7924f.chunk.js.map": "/Portfolio-Frontend-React/static/js/787.f3d7924f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0daf626.css",
-    "static/js/main.bf0a8c97.js"
+    "static/js/main.22697d6f.js"
   ]
 }
