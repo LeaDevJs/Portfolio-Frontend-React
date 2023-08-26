@@ -12,6 +12,7 @@ import Img8 from "./img/p8.jpg"
 import Img9 from "./img/p9.jpg"
 import Img10 from "./img/p10.jpg"
 import Img11 from "./img/p11.jpg" 
+import Img12 from "./img/p12.jpg"
 
 function Portfolio(){
     const verMasDisplayRef = useRef(null);
@@ -38,6 +39,11 @@ function Portfolio(){
                 code="https://github.com/LeaDevJs/ToDoList" title="ToDoList" 
                 description="Aplicacion lista de tareas"
                 />
+
+                <Project img={Img12} click="https://farmacias-malvinas.vercel.app/"
+                code="https://github.com/LeaDevJs/farmacias-malvinas" title="Farmacias de turno" 
+                description="App web que informa cuales farmacias estan de turno en Malvinas Argentinas"
+                />
                 <Project img={Img9} click="https://leadevjs.github.io/age-calculator-app/"
                 code="https://github.com/LeaDevJs/age-calculator-app" title="Age calculator app" 
                 description="Aplicacion calculadora de edad"
@@ -58,10 +64,7 @@ function Portfolio(){
                 code="https://github.com/LeaDevJs/rutas-dinamicas-ejercicio" title="Rutas Dinámicas" 
                 description="Ejercicio rutas dinámicas React"
                 />
-                <Project img={Img6} click="https://leadevjs.github.io/results-summary-component"
-                code="https://github.com/leaDevJs/results-summary-component" title="Results Summary Component" 
-                description="Results Summary Component para FrontendMentor"
-                />
+                
                   
             </div>
         </div>
@@ -73,6 +76,11 @@ function Portfolio(){
         
         <div className="contenido-seccion ver-mas-display" ref={verMasDisplayRef}>
         <div className="galeria">
+
+                <Project img={Img6} click="https://leadevjs.github.io/results-summary-component"
+                code="https://github.com/leaDevJs/results-summary-component" title="Results Summary Component" 
+                description="Results Summary Component para FrontendMentor"
+                />
         
                 <Project img={Img1} click={Img1}
                 code="https://github.com/leaDevJs/Attack-on-Titan" title="Attack on Titan" 
