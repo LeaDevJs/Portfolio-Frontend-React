@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+html{
+    /* me permite deslizar cuando hago clic en los links del menu */
+    scroll-behavior: smooth;
+}
+/* MENU */
+.contenedor-headerEn{
+    background: #1e2326;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.contenedor-headerEn header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.contenedor-headerEn header .logo a{
+    font-family: 'Righteous';
+    font-size: 36px;
+    color: rgb(96, 0, 96);
+    text-decoration: none;
+}
+.contenedor-headerEn header ul{
+    display: flex;
+    list-style: none;
+}
+.contenedor-headerEn header nav ul li a{
+    text-align: none;
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+.contenedor-headerEn header nav ul li a:hover{
+    color: rgb(96, 0, 96);
+}
+.nav-responsiveEn{
+    background-color: rgb(96, 0, 96);
+    color:#fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+.idiomaEn{
+    width: 35px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:980px){
+    nav{
+        display: none;
+    }
+    .nav-responsiveEn{
+        display: block;
+    }
+    nav.responsiveEn{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #252A2E;
+        width: 180px;
+    }
+    nav.responsiveEn ul{
+        display: block !important;
+    }
+    nav.responsiveEn ul li{
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+    }
+}
