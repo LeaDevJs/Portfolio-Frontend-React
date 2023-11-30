@@ -14,7 +14,9 @@ import Img10 from "./img/p10.jpg"
 import Img11 from "./img/p11.jpg" 
 import Img12 from "./img/p12.jpg"
 
+
 function Portfolio(){
+  
     const verMasDisplayRef = useRef(null);
     const verMenosButtonRef = useRef(null);
     const verMasButtonRef = useRef(null);
@@ -68,12 +70,12 @@ function Portfolio(){
                   
             </div>
         </div>
+       
         <div className="ver-mas" ref={verMasButtonRef}>
           <button onClick={handleVerMas}>Ver mas
           <span className="overlay"></span>
           </button>
         </div>
-        
         <div className="contenido-seccion ver-mas-display" ref={verMasDisplayRef}>
         <div className="galeria">
 
