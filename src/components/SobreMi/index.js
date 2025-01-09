@@ -1,5 +1,5 @@
 import "./styles.css"
-import CV from "./pdf/cvLeanZJ2023.pdf";
+import CV from "./pdf/LeandroZapataCv2024.pdf";
 function SobreMi() {
     return(
         <>
@@ -72,7 +72,7 @@ function SobreMi() {
                     </div>
                 </div>
             </div>
-            <a href={CV} download="LeandroZapataCv2023" style={{textDecoration: "none"}}>
+            <a href={CV} download="LeandroZapataCv2024" style={{textDecoration: "none"}}>
                 <button>
                     Descargar CV <i className="fa-solid fa-download"></i>
                     <span className="overlay"></span>

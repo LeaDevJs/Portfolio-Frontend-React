@@ -31,9 +31,17 @@ function Experience(){
                 <div className="col derecha">
                     <h3>Work experience</h3>
                     <div className="item der">
+                        <h4>Commercial Operator</h4>
+                        <span className="casa">Conurbano SA</span>
+                        <span className="fecha">December 2024 - Actually</span>
+                        <div className="conectord">
+                            <div className="circulod"></div>
+                        </div>
+                    </div>
+                    <div className="item der">
                         <h4>Trainee of serigraphy</h4>
                         <span className="casa">The INK Point SA.</span>
-                        <span className="fecha">February 2022 - Actually</span>
+                        <span className="fecha">February 2022 - March 2024</span>
                         <div className="conectord">
                             <div className="circulod"></div>
                         </div>
