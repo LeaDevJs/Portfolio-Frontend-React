@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Frontend-React/static/css/main.6d6f200e.css",
+    "main.js": "/Portfolio-Frontend-React/static/js/main.dcc3c9c8.js",
+    "static/js/787.f3d7924f.chunk.js": "/Portfolio-Frontend-React/static/js/787.f3d7924f.chunk.js",
+    "static/media/fondo.jpg": "/Portfolio-Frontend-React/static/media/fondo.f684668eaefd50fb71f3.jpg",
+    "static/media/p7.jpg": "/Portfolio-Frontend-React/static/media/p7.f57ed6b034467791df70.jpg",
+    "static/media/p12.jpg": "/Portfolio-Frontend-React/static/media/p12.508300665aa37746a174.jpg",
+    "static/media/p2.jpg": "/Portfolio-Frontend-React/static/media/p2.0fcd23063349891715bb.jpg",
+    "static/media/p4.jpg": "/Portfolio-Frontend-React/static/media/p4.28c5bbad38da2c7450e2.jpg",
+    "static/media/p1.jpg": "/Portfolio-Frontend-React/static/media/p1.608e1fd6a0f10d509e72.jpg",
+    "static/media/p3.jpg": "/Portfolio-Frontend-React/static/media/p3.11ee8c2bd200dff809af.jpg",
+    "static/media/p5.jpg": "/Portfolio-Frontend-React/static/media/p5.cdeebb594a44caa77886.jpg",
+    "static/media/p9.jpg": "/Portfolio-Frontend-React/static/media/p9.f501967bbd91cf56898b.jpg",
+    "static/media/p10.jpg": "/Portfolio-Frontend-React/static/media/p10.bbf1e4e38550c3b022c8.jpg",
+    "static/media/cvLeanZJ2023.pdf": "/Portfolio-Frontend-React/static/media/cvLeanZJ2023.79d9baef0f09cd4c6024.pdf",
+    "static/media/p6.jpg": "/Portfolio-Frontend-React/static/media/p6.58e4d3debe6f3a388731.jpg",
+    "static/media/p8.jpg": "/Portfolio-Frontend-React/static/media/p8.2237ad17cf943fa58969.jpg",
+    "static/media/p11.jpg": "/Portfolio-Frontend-React/static/media/p11.9d668f4a5ef3ceaabec7.jpg",
+    "static/media/profilePic.png": "/Portfolio-Frontend-React/static/media/profilePic.afa6db8776981cc9f5cc.png",
+    "index.html": "/Portfolio-Frontend-React/index.html",
+    "main.6d6f200e.css.map": "/Portfolio-Frontend-React/static/css/main.6d6f200e.css.map",
+    "main.dcc3c9c8.js.map": "/Portfolio-Frontend-React/static/js/main.dcc3c9c8.js.map",
+    "787.f3d7924f.chunk.js.map": "/Portfolio-Frontend-React/static/js/787.f3d7924f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d6f200e.css",
+    "static/js/main.dcc3c9c8.js"
+  ]
+}
