@@ -84,6 +84,10 @@
     position: relative;
     bottom: 4px;
 }
+h5 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
 .curriculum .fila .item .conectord{
     height: 2px;
     background-color: #1CB698;

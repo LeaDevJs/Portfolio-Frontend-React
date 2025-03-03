@@ -33,7 +33,10 @@ function Experience(){
                     <div className="item der">
                         <h4>Operario de comercio</h4>
                         <span className="casa">Conurbano SA</span>
-                        <span className="fecha">Diciembre 2024 - Actualidad</span>
+                        <h5>Diciembre 2024 - Actualidad</h5>
+                        <span className="fecha">- Selección y preparación de productos.</span>
+                        <span className="fecha">- Utilización del sistema WMS para realizar el escaneo de los
+                        productos y control de inventario.</span>
                         <div className="conectord">
                             <div className="circulod"></div>
                         </div>
@@ -41,16 +44,24 @@ function Experience(){
                     <div className="item der">
                         <h4>Aprendíz de serigrafía.</h4>
                         <span className="casa">The INK Point SA.</span>
-                        <span className="fecha">Febrero 2022 - Marzo 2024</span>
+                        <h5 >Febrero 2022 - Marzo 2024</h5>
+                        <span className="fecha">- Creación y preparación de schablones con distintos diseños para segirgrafía.</span>
+                        <span className="fecha">- Estampado serigráfico.</span>
+                        <span className="fecha">- Mantenimiento de herramientas.</span>
                         <div className="conectord">
                             <div className="circulod"></div>
                         </div>
                     </div>
-                    
                     <div className="item der">
                         <h4>Operario de Logística</h4>
                         <span className="casa">Servicios Digitales de Excelencia.</span>
-                        <span className="fecha">Junio 2021 – Febrero 2022</span>
+                        <h5 >Junio 2021 – Febrero 2022</h5>
+                        <span className="fecha">- Soporte técnico a clientes mediante videollamada y TeamViewer.</span>
+                        <span className="fecha">- Resolución de problemas técnicos.</span>
+                        <span className="fecha">- Instalación y configuración remota de los productos.</span>
+                        <span className="fecha">- Comunicación efectiva.</span>
+                        <span className="fecha">- Tareas de logística: preparación de los productos para su despacho
+                        por correo.</span>
                         <div className="conectord">
                             <div className="circulod"></div>
                         </div>

@@ -33,7 +33,10 @@ function Experience(){
                     <div className="item der">
                         <h4>Commercial Operator</h4>
                         <span className="casa">Conurbano SA</span>
-                        <span className="fecha">December 2024 - Actually</span>
+                        <h5>December 2024 - Actually</h5>
+                        <span className="fecha">- Product selection and preparation.</span>
+                        <span className="fecha">- Use of the WMS system for product scanning and inventory control.
+                        products and inventory control.</span>
                         <div className="conectord">
                             <div className="circulod"></div>
                         </div>
@@ -41,7 +44,11 @@ function Experience(){
                     <div className="item der">
                         <h4>Trainee of serigraphy</h4>
                         <span className="casa">The INK Point SA.</span>
-                        <span className="fecha">February 2022 - March 2024</span>
+                        <h5>February 2022 - March 2024</h5>
+                        <span className="fecha">- Creation and preparation of schablones with different layouts for
+                        screen printing.</span>
+                        <span className="fecha">- Screen printing.</span>
+                        <span className="fecha">- Maintenance of tools.</span>
                         <div className="conectord">
                             <div className="circulod"></div>
                         </div>
@@ -49,7 +56,13 @@ function Experience(){
                     <div className="item der">
                         <h4>Logistics operator</h4>
                         <span className="casa">Servicios Digitales de Excelencia.</span>
-                        <span className="fecha">June 2021 – February 2022</span>
+                        <h5>June 2021 – February 2022</h5>
+                        <span className="fecha">- Technical support to customers via video call and TeamViewer.</span>
+                        <span className="fecha">- Technical troubleshooting.</span>
+                        <span className="fecha">- Remote installation and configuration of products.</span>
+                        <span className="fecha">- Effective communication.</span>
+                        <span className="fecha">- Logistics tasks: preparation of products for shipment by mail.
+                        by mail.</span>
                         <div className="conectord">
                             <div className="circulod"></div>
                         </div>

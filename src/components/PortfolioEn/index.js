@@ -3,8 +3,6 @@ import Project from './project';
 import "./styles.css"
 import Img1 from "./img/p1.jpg"
 import Img2 from "./img/p2.jpg"
-import Img3 from "./img/p3.jpg"
-import Img4 from "./img/p4.jpg"
 import Img5 from "./img/p5.jpg"
 import Img6 from "./img/p6.jpg"
 import Img7 from "./img/p7.jpg"
@@ -55,14 +53,6 @@ function Portfolio(){
                 <Project img={Img2} click={Img2}
                 code="https://github.com/leaDevJs/JuegoBarbarianna" title="Barbarianna" 
                 description="Videogame developed with Java"
-                />
-                <Project img={Img3} click={Img3}
-                code="https://github.com/leaDevJs/PortfolioFrontendAngular" title="Portfolio Frontend" 
-                description="Frontend portfolio developed with Angular"
-                />
-                <Project img={Img4} click={Img4}
-                code="https://github.com/LeaDevJs/rutas-dinamicas-ejercicio" title="Rutas Dinámicas" 
-                description="Excercise dinamyc routes with React"
                 />
                 
                   

@@ -1,13 +1,23 @@
 import "./styles.css"
-import CV from "./pdf/LeandroZapataCv2024.pdf";
+import CV from "./pdf/CV LEANDRO ZAPATA.pdf";
 function SobreMi() {
     return(
         <>
             <section id="sobremi" className="sobremi">
         <div className="contenido-seccion">
             <h2>Sobre Mí</h2>
-            <p><span>Hola, soy Leandro.</span> Soy un estudiante de sistemas apasionado por el desarrollo web, con un gran deseo de aprender y crecer en esta industria en constante evolución.
-                                                Como trainee en desarrollo web, mi objetivo es aplicar mis habilidades y conocimientos para contribuir al desarrollo de proyectos web innovadores y de alta calidad.</p>
+            <p><span>Hola! Soy Leandro,</span> estudiante de
+Sistemas con una gran pasión por el
+desarrollo web.
+Mi motivación es aprender
+continuamente y desarrollarme en
+esta industria en constante evolución.
+Como trainee en desarrollo web,
+busco aplicar mis habilidades,
+conocimientos técnicos y mi
+entusiasmo para contribuir al
+desarrollo de proyectos innovadores y
+de alta calidad.</p>
 
             <div className="fila">
                 <div className="col">
@@ -28,10 +38,6 @@ function SobreMi() {
                         <li>
                             <strong>Ubicación</strong>
                             Buenos Aires, Argentina.
-                        </li>
-                        <li>
-                            <strong>Cargo</strong>
-                            <span>Desarrollador web</span>
                         </li>
                     </ul>
                 </div>
@@ -72,7 +78,7 @@ function SobreMi() {
                     </div>
                 </div>
             </div>
-            <a href={CV} download="LeandroZapataCv2024" style={{textDecoration: "none"}}>
+            <a href={CV} download="CV LEANDRO ZAPATA" style={{textDecoration: "none"}}>
                 <button>
                     Descargar CV <i className="fa-solid fa-download"></i>
                     <span className="overlay"></span>

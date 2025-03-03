@@ -1,5 +1,5 @@
 import "./styles.css"
-import CV from "./pdf/LeandroZapataCv2024.pdf";
+import CV from "./pdf/CV LEANDRO ZAPATA.pdf";
 function SobreMi() {
     return(
         <>
@@ -28,10 +28,6 @@ function SobreMi() {
                         <li>
                             <strong>Location</strong>
                             Buenos Aires, Argentina.
-                        </li>
-                        <li>
-                            <strong>Position</strong>
-                            <span>Web developer</span>
                         </li>
                     </ul>
                 </div>
@@ -72,7 +68,7 @@ function SobreMi() {
                     </div>
                 </div>
             </div>
-            <a href={CV} download="LeandroZapataCv2024" style={{textDecoration: "none"}}>
+            <a href={CV} download="CV LEANDRO ZAPATA" style={{textDecoration: "none"}}>
                 <button>
                     Download resume <i className="fa-solid fa-download"></i>
                     <span className="overlay"></span>
